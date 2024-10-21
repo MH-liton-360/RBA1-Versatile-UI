@@ -23,13 +23,10 @@
 
  /* Fitness section style  */
  .bg-light {
-     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+     background: rgb(43, 43, 43);
 
  }
 
- /* .navbar-wraper {
-     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
- } */
 
  .navbar {
      max-width: 1140px;
