@@ -7,6 +7,26 @@
      font-style: normal;
  }
 
+
+ /* Just shape----------------------------- */
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italianno&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+
+ .italianno-regular {
+     font-family: "Italianno", cursive;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+
+
+
+
+
+
+
+
+
  * {
      margin: 0;
      padding: 0;
@@ -14,14 +34,34 @@
  }
 
 
- /* shared style  */
+ /* shared style ----------------------------------------------------- */
  .display-flex {
      display: flex;
  }
 
+ .btn-primary {
+     width: 7rem;
+     height: 1.9rem;
+     border: none;
+     border-radius: 2rem;
+     color: antiquewhite;
+     background-color: rgb(228, 8, 8);
+     margin-right: 5px;
+
+ }
+
+ .normal-btn {
+     width: 7rem;
+     height: 1.9rem;
+     border: none;
+     border-radius: 2rem;
+     color: rgb(211, 219, 219);
+     background-color: rgb(18, 17, 17);
+     opacity: 0.9;
+ }
 
 
- /* Fitness section style  */
+ /* Fitness section style------------------------------------------------  */
  .bg-light {
      background: rgb(43, 43, 43);
 
@@ -34,6 +74,8 @@
      padding-top: 30px;
      justify-content: space-between;
      align-items: center;
+
+     margin-bottom: 50px;
  }
 
  .fitness {
@@ -43,7 +85,7 @@
  }
 
  ul {
-     width: 300px;
+     width: 330px;
      border: 1px solid rgba(255, 255, 255, 0.1);
      border-radius: 2.8rem;
 
@@ -76,4 +118,41 @@
 
  .nav-hamburger-menu {
      display: none;
+ }
+
+
+
+ /* Banner section-------------------------------------------------------------  */
+ .banner-wraper {
+     max-width: 1110px;
+     margin: 0px auto;
+     justify-content: space-between;
+
+ }
+
+ .banner-container {
+     max-width: 500px;
+     height: 300px;
+     padding-top: 80px;
+
+ }
+
+
+ .bg-img {
+     max-width: 300px;
+     max-height: 590px;
+ }
+
+
+ .banner-title {
+     font-weight: 800;
+     font-size: 4.2rem;
+     color: aliceblue;
+ }
+
+ .banner-description {
+     color: rgb(218, 248, 248);
+     font-size: 0.8rem;
+     padding-top: 5px;
+     padding-bottom: 1rem;
  }
