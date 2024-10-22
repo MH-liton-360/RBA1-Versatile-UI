@@ -206,3 +206,73 @@
      bottom: 30%;
      right: 80%;
  }
+
+ /* main section-------------------------------------------------------------  */
+
+ main {
+     background-color: rgb(3, 3, 3);
+ }
+
+ .main-without-header {
+     max-width: 1110px;
+     margin: 0px auto;
+ }
+
+ /*  Change-your-habits-sec-light------section-------------------------------------------------------------  */
+ .Change-your-habits-container {
+     padding-top: 3.5rem;
+
+ }
+
+
+ .Habits-container {
+     max-width: 800px;
+     max-height: 5rem;
+     text-align: center;
+     padding-bottom: 1rem;
+     padding-left: 16.5rem;
+
+
+ }
+
+ .Habits-title {
+     font-size: 3rem;
+     font-weight: 700;
+     color: rgb(227, 237, 238);
+     padding-bottom: 0.2rem;
+ }
+
+ .Habits-description {
+     color: aqua;
+     font-size: 1rem;
+ }
+
+
+
+
+ .img-container {
+     justify-content: space-between;
+     padding: 0px 20px;
+     margin-top: 4.5rem;
+ }
+
+ .img-round {
+     border-radius: 100%;
+ }
+
+ .img-title {
+     font-size: 1.2rem;
+     padding-top: 1.5rem;
+     padding-bottom: 0.4rem;
+ }
+
+ .img-description {
+     color: rgb(220, 217, 217);
+ }
+
+ .img-rounded-description {
+     color: aqua;
+     width: 180px;
+     text-align: center;
+     font-size: 0.6rem;
+ }
