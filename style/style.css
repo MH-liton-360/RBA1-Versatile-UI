@@ -232,14 +232,16 @@
 
  }
 
- .Habits-title {
+ .Habits-title,
+ .meet-our-team-title {
      font-size: 2.5rem;
      font-weight: 800;
      color: rgb(227, 237, 238);
      padding-bottom: 0.5rem;
  }
 
- .Habits-description {
+ .Habits-description,
+ .meet-our-team-descriptipn {
      color: aqua;
      font-size: 0.8rem;
  }
@@ -280,6 +282,8 @@
      padding-left: 30px;
      padding-right: 30px;
      justify-content: space-between;
+
+     margin-bottom: 50px;
  }
 
  .Run-and-Mile {
@@ -287,14 +291,10 @@
      border-radius: 1rem;
  }
 
- /* .Run-and-Miles-container {
-     padding: 100px 30px;
- } */
-
  .Run-and-Mile-title {
      font-size: 2.5rem;
      font-weight: 800;
-     color: antiquewhite;
+     color: rgba(237, 254, 254, 0.93);
      padding-bottom: 10px;
  }
 
@@ -310,3 +310,33 @@
      height: 265px;
      border-radius: 0.8rem;
  }
+
+
+ /* Meet-Our-Team --------------------------section-------------------- */
+
+ /* .meet-our-teams-container {
+     background-color: rgba(132, 132, 132, 0.263);
+     border-radius: 1rem;
+     height: 800px;
+ } */
+
+ .meet-our-team {
+     max-width: 800px;
+     max-height: 5rem;
+     text-align: center;
+     padding-left: 21rem;
+ }
+
+ .img-container {}
+
+ .img-crop {
+     width: 325px;
+     height: 290px;
+     /* border-radius: 2rem; */
+ }
+
+ /* .meet-our-teams-container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     margin-top: 2rem;
+ } */
