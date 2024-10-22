@@ -87,6 +87,8 @@
     /* Run-and-Mile-container responsive */
     .Run-and-Mile-container {
         flex-direction: column;
+        height: 620px;
+        align-items: center;
     }
 
     .Run-and-Mile-description {
