@@ -14,7 +14,7 @@
 
     .navbar {
         flex-direction: row;
-        padding: 10px 20px;
+        padding: 3rem 1.7rem;
 
 
     }
@@ -27,6 +27,35 @@
 
     .nav-hamburger-menu {
         display: block;
+        font-size: 2rem;
+        color: aliceblue;
+
+    }
+
+    .banner-wraper {
+        flex-direction: column;
+        padding: 0rem 1.7rem;
+        margin-top: -7rem;
+    }
+
+    .banner-title {
+        font-weight: 800;
+        font-size: 3.2rem;
+        padding-bottom: 1rem;
+    }
+
+    .bg-img-container {
+        padding-top: 7.5rem;
+    }
+
+    .workout {
+        top: 25%;
+        left: 47%;
+    }
+
+    .video {
+        top: 56%;
+        right: 55%;
 
     }
 }

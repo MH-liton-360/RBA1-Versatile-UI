@@ -60,6 +60,12 @@
      opacity: 0.9;
  }
 
+ .bold {
+     font-size: 1.5rem;
+     font-weight: 800;
+ }
+
+
 
  /* Fitness section style------------------------------------------------  */
  .bg-light {
@@ -137,6 +143,9 @@
 
  }
 
+ .bg-img-container {
+     position: relative;
+ }
 
  .bg-img {
      max-width: 300px;
@@ -155,4 +164,41 @@
      font-size: 0.8rem;
      padding-top: 5px;
      padding-bottom: 1rem;
+ }
+
+
+ .video {
+     width: max-content;
+     padding: 10px 30px;
+     color: beige;
+     background-color: rgba(203, 200, 200, 0.153);
+     border-radius: 10px;
+
+     position: absolute;
+     top: 75%;
+     right: 77%;
+ }
+
+ .workout {
+     width: max-content;
+     padding: 10px 20px;
+     color: beige;
+     background-color: rgba(203, 200, 200, 0.153);
+     border-radius: 10px;
+
+
+     position: absolute;
+     top: 28%;
+     left: 70%;
+ }
+
+ .ball {
+     width: 25px;
+     height: 25px;
+     border-radius: 50%;
+     background-color: rgba(232, 239, 29, 0.471);
+
+     position: absolute;
+     bottom: 30%;
+     right: 80%;
  }
