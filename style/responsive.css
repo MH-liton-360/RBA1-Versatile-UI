@@ -82,6 +82,24 @@
         padding: 20px 0px;
 
     }
+
+
+    /* Run-and-Mile-container responsive */
+    .Run-and-Mile-container {
+        flex-direction: column;
+    }
+
+    .Run-and-Mile-description {
+        width: 350px;
+    }
+
+    .btnn {
+        width: 350px;
+    }
+
+    .image-styles {
+        padding: 1.5rem 0rem;
+    }
 }
 
 

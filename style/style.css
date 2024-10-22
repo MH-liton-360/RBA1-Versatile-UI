@@ -22,11 +22,6 @@
 
 
 
-
-
-
-
-
  * {
      margin: 0;
      padding: 0;
@@ -219,8 +214,10 @@
  }
 
  /*  Change-your-habits-sec-light------section-------------------------------------------------------------  */
+
  .Change-your-habits-container {
      padding-top: 3rem;
+     padding-bottom: 5rem;
 
  }
 
@@ -247,9 +244,6 @@
      font-size: 0.8rem;
  }
 
-
-
-
  .img-container {
      justify-content: space-between;
      padding: 0px 20px;
@@ -275,4 +269,43 @@
      width: 180px;
      text-align: center;
      font-size: 0.6rem;
+ }
+
+
+ /* Run-and-Extra-Mile-------------------------section */
+
+ .Run-and-Mile-container {
+     padding-top: 2rem;
+     padding-left: 30px;
+     padding-right: 30px;
+     justify-content: space-between;
+ }
+
+ .Run-and-Mile {
+     background-color: rgba(132, 132, 132, 0.263);
+     border-radius: 1rem;
+ }
+
+ /* .Run-and-Miles-container {
+     padding: 100px 30px;
+ } */
+
+ .Run-and-Mile-title {
+     font-size: 2.5rem;
+     font-weight: 800;
+     color: antiquewhite;
+     padding-bottom: 10px;
+ }
+
+ .Run-and-Mile-description {
+     width: 400px;
+     font-size: 0.8rem;
+     color: aqua;
+     padding-bottom: 1.3rem;
+ }
+
+ .img-sizes {
+     width: 350px;
+     height: 265px;
+     border-radius: 0.8rem;
  }
