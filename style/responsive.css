@@ -68,11 +68,8 @@
     }
 
     .Habits-container {
-        padding-top: -80px;
         margin-left: -340px;
-
-        position: absolute;
-        top: 112%;
+        margin-top: -40px;
 
     }
 
