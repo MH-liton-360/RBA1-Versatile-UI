@@ -421,7 +421,7 @@
 
 
  /* Footer--------------------------section------------------------  */
- .fitness-bg {
+ /* .fitness-bg {
      background-color: rgba(0, 0, 0, 0.858);
  }
 
@@ -453,16 +453,6 @@
      padding: 5px 0px;
  }
 
- /* .Fit-info {
-     padding-left: 60px;
- } */
-
- .info {
-     padding-right: 100px;
-
-
- }
-
  .Fit {
      color: rgb(230, 83, 60);
      font-weight: 700;
@@ -485,4 +475,4 @@
      font-size: 0.8rem;
      text-align: center;
      padding-top: 20px;
- }
+ } */
