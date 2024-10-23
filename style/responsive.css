@@ -169,7 +169,16 @@
     }
 
 
+    /* Footer -------------section ------------------------------------- */
+    .footer-container {
+        flex-direction: column;
+        padding: 0px 10px;
+        padding-bottom: 30px;
+    }
 
+    .fitness-for-health-description {
+        width: 400px;
+    }
 }
 
 

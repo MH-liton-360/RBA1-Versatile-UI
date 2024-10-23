@@ -425,10 +425,6 @@
      background-color: rgba(0, 0, 0, 0.858);
  }
 
- .Fitness-info {
-     padding-right: 90px;
- }
-
  .footer-container {
      justify-content: space-between;
      padding: 30px 0px;
@@ -457,8 +453,14 @@
      padding: 5px 0px;
  }
 
+ /* .Fit-info {
+     padding-left: 60px;
+ } */
+
  .info {
-     padding-left: 90px;
+     padding-right: 100px;
+
+
  }
 
  .Fit {
