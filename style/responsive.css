@@ -189,8 +189,15 @@
     /* Challenge section part(i) */
     .bg-light-bmi {
         flex-direction: column;
-        height: 440px;
+        height: 448px;
     }
+
+    .bttn {
+        margin-bottom: 20px;
+    }
+
+
+
 
 
 
