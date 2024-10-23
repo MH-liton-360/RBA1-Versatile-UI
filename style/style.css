@@ -314,39 +314,104 @@
 
  /* Meet-Our-Team --------------------------section-------------------- */
 
- .meet-our-teams-container {
-     background-color: rgba(132, 132, 132, 0.263);
-     border-radius: 1rem;
-     height: 800px;
- }
-
  .meet-our-team {
      max-width: 800px;
      max-height: 5rem;
      text-align: center;
      padding-left: 21rem;
+     margin-bottom: 30px;
  }
 
-
-
- .img-crop {
-     width: 325px;
-     height: 290px;
-     border-radius: 2rem;
+ .meet-our-teams-bg {
+     background-color: rgba(132, 132, 132, 0.263);
+     border-radius: 1rem;
+     padding: 10px 20px;
  }
 
  .meet-our-teams-container {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
-     margin-top: 3rem;
+     padding: 10px 0px;
+     gap: 20px;
 
      position: relative;
  }
 
- .teammet-style {
-     color: aqua;
+
+ .image-source img {
+     width: 330px;
+     height: 290px;
+     border-radius: 1rem;
+ }
+
+
+
+ .trainer-description1 {
+     color: whitesmoke;
 
      position: absolute;
      top: 37%;
-     left: 5%;
+     left: 3%;
+
+ }
+
+
+ .trainer-description2 {
+     color: whitesmoke;
+
+     position: absolute;
+     top: 37%;
+     left: 36%;
+
+ }
+
+ .trainer-description3 {
+     color: whitesmoke;
+
+     position: absolute;
+     bottom: 55%;
+     left: 70%;
+
+ }
+
+ .trainer-description4 {
+     color: whitesmoke;
+
+     position: absolute;
+     bottom: 5%;
+     left: 3%;
+
+ }
+
+ .trainer-description5 {
+     color: whitesmoke;
+
+     position: absolute;
+     bottom: 5%;
+     left: 36%;
+
+ }
+
+ .trainer-description6 {
+     color: whitesmoke;
+
+     position: absolute;
+     bottom: 5%;
+     left: 70%;
+
+ }
+
+
+
+
+
+
+ .trainer-name {
+     font-size: 1.2rem;
+     font-weight: 400;
+ }
+
+ .trainer-title {
+     font-size: 0.7rem;
+     color: rgb(184, 184, 184);
  }
