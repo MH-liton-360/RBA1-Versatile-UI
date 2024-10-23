@@ -321,6 +321,7 @@
      text-align: center;
      padding-left: 21rem;
      margin-bottom: 30px;
+     margin-top: 30px;
  }
 
  .meet-our-teams-bg {
@@ -412,11 +413,17 @@
      color: rgb(184, 184, 184);
  }
 
- /* BMI Calculator Chart -----------------Section------------------- */
- .BMI-bg {
-     background-color: antiquewhite;
-     max-width: 1440px;
+ /* BMI Calculator Chart -------Challenge--------Section--------------- */
+
+
+ .head {
+     font-size: 3rem;
+     font-weight: 800;
+     color: aquamarine;
+     text-align: center;
  }
+
+
 
 
  /* Footer--------------------------section------------------------  */
