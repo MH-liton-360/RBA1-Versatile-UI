@@ -416,14 +416,58 @@
  /* BMI Calculator Chart -------Challenge--------Section--------------- */
 
 
- .head {
-     font-size: 3rem;
-     font-weight: 800;
-     color: aquamarine;
-     text-align: center;
+ .bg-light-bmi {
+     height: 280px;
+     background-color: rgba(189, 189, 189, 0.333);
+     padding: 0px 20px;
+     justify-content: space-between;
+     padding-top: 40px;
+     color: aqua;
+     font-size: 0.8rem;
+ }
+
+ .BMI-Calculator-Chart {
+     width: 400px;
+     margin-left: 40px;
+ }
+
+ .Calculate-Your-BMI {
+     width: 300px;
+     margin-right: 200px;
  }
 
 
+
+ /* table  */
+ table {
+     border-collapse: collapse;
+ }
+
+ td,
+ th {
+     border: 1px solid black;
+     padding: 5px 10px;
+ }
+
+ form input {
+     width: 140px;
+     margin: 5px 0px;
+ }
+
+ .sex {
+     width: 140px;
+ }
+
+ .factor {
+     width: 285px;
+     margin-bottom: 10px;
+ }
+
+ .titles {
+     padding-bottom: 10px;
+     font-size: 1.3rem;
+     font-weight: 700;
+ }
 
 
  /* Footer--------------------------section------------------------  */
