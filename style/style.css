@@ -331,7 +331,7 @@
  .meet-our-teams-container {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
-     padding: 10px 0px;
+     padding: 10px;
      gap: 20px;
 
      position: relative;
@@ -400,11 +400,6 @@
      left: 70%;
 
  }
-
-
-
-
-
 
  .trainer-name {
      font-size: 1.2rem;
