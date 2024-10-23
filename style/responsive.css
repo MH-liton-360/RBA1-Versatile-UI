@@ -170,15 +170,21 @@
 
 
     /* Footer -------------section ------------------------------------- */
-    .footer-container {
+    .Fitness-information {
         flex-direction: column;
         padding: 0px 10px;
-        padding-bottom: 30px;
     }
 
-    .fitness-for-health-description {
-        width: 350px;
+    .Info-title {
+        padding-top: 30px;
     }
+
+    .headline,
+    .info-description,
+    .Underline {
+        padding-top: 20px;
+    }
+
 }
 
 

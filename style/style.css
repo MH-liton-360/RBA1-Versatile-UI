@@ -209,8 +209,7 @@
      padding-bottom: 50px;
  }
 
- .main-without-header,
- .footer-container {
+ .main-without-header {
      max-width: 1110px;
      margin: 0px auto;
  }
@@ -243,7 +242,7 @@
  }
 
  .Habits-description,
- .meet-our-team-descriptipn {
+ .meet-our-team-description {
      color: aqua;
      font-size: 0.8rem;
  }
@@ -333,7 +332,7 @@
  .meet-our-teams-container {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
-     padding: 10px;
+
      gap: 20px;
 
      position: relative;
@@ -421,58 +420,58 @@
 
 
  /* Footer--------------------------section------------------------  */
- /* .fitness-bg {
-     background-color: rgba(0, 0, 0, 0.858);
+ footer {
+     background-color: rgba(8, 8, 7, 0.881);
  }
 
- .footer-container {
+ .Fitness-information {
+     max-width: 1110px;
+     margin: 0px auto;
      justify-content: space-between;
-     padding: 30px 0px;
-     padding-bottom: 60px;
-     color: cadetblue;
+     padding-top: 50px;
+     padding-bottom: 30px;
+
+     color: rgba(160, 160, 160, 0.881);
  }
 
- .fitness-for-health {
-     width: 500px;
-     padding: 10px 0px;
+ .Info-structure {
+     max-width: 500px;
  }
 
- .fitness-for-health-description {
+ .Info-title {
+     font-size: 3rem;
+     font-weight: 600;
+     color: rgb(218, 0, 0);
+ }
+
+ .info-description {
      font-size: 0.8rem;
+     color: rgba(160, 160, 160, 0.881);
  }
 
- .get {
-     padding: 1rem 0rem;
-     color: aliceblue;
-     font-size: 1.2rem;
-     font-weight: 400;
+ .headline {
+     padding-bottom: 10px;
  }
 
  p {
-     font-size: 1rem;
-     padding: 5px 0px;
+     padding-bottom: 5px;
+     font-size: 0.9rem;
  }
 
- .Fit {
-     color: rgb(230, 83, 60);
-     font-weight: 700;
-     font-size: 3.5rem;
- }
-
- .foot-foot-footer {
+ .Underline {
      max-width: 1110px;
      margin: 0px auto;
-     padding-bottom: 20px;
  }
 
- hr.horizontal {
-     border: 1px solid rgb(27, 63, 65);
-
+ hr.new {
+     border: 1px solid rgb(61, 60, 60);
  }
 
- .footer-descrip {
-     color: cadetblue;
-     font-size: 0.8rem;
-     text-align: center;
+ .Underline-description {
      padding-top: 20px;
- } */
+     padding-bottom: 20px;
+     text-align: center;
+     font-size: 0.7;
+     font-weight: 300;
+     color: grey;
+ }
